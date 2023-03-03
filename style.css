@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Babylonica&family=Benne&family=Electrolize&family=Inconsolata:wght@900&family=Lato&family=Libre+Franklin:wght@700&family=Montserrat:wght@700&family=Noto+Serif+Ahom&family=Oswald:wght@700&family=Sassy+Frass&family=Sen:wght@400;700&family=Source+Code+Pro:wght@300&display=swap');
+
+@import 'animate.css';
+
+
+body
+{
+    background-color: whitesmoke;
+    background: url("https://www.myfreetextures.com/wp-content/uploads/2014/10/seamless-wood5.jpg") center/cover fixed no-repeat;
+}
+
+.basefont {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 60%;
+    margin-top: 2%;
+
+}
+
+.title {
+    font-size: 10em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color: black;
+    letter-spacing: 2px;
+
+}
+
+.game-area {
+
+    margin: auto;
+    padding: 20px;
+}
+
+
+td {
+    width: 150px;
+    height: 200px;
+    box-sizing: border-box 10px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 3px solid rgb(212, 7, 127);
+    box-shadow: 10px 10px 10px orangered;
+    font-size: 4em;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    background-color: black;
+
+
+}
+
+table {
+    margin: auto;
+    border-spacing: 20px;
+}
+
+
+.indicator-area
+{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.indicator-area>div
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.ind-font
+{
+    font-size: 5em;
+    font-weight: bold;
+}
